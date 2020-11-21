@@ -1,2 +1,2 @@
 # moose
-projeto AR de Introdução à Multimídia no Cinema
+projeto AR de Introdução à Multimídia no CIn
