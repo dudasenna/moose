@@ -13,13 +13,14 @@
 		226D8C1A2569350E009AB86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226D8C182569350E009AB86E /* Main.storyboard */; };
 		226D8C1C2569350E009AB86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226D8C1B2569350E009AB86E /* Assets.xcassets */; };
 		226D8C1F2569350E009AB86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226D8C1D2569350E009AB86E /* LaunchScreen.storyboard */; };
-		226D8C282569360F009AB86E /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C272569360F009AB86E /* Painting.swift */; };
+		226D8C282569360F009AB86E /* PaintingJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C272569360F009AB86E /* PaintingJSON.swift */; };
 		226D8C2B2569362F009AB86E /* PaitingBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C2A2569362F009AB86E /* PaitingBank.swift */; };
 		226D8C2E2569364D009AB86E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C2D2569364D009AB86E /* SearchBarView.swift */; };
 		226D8C3125693684009AB86E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C3025693684009AB86E /* SwiftUIView.swift */; };
 		226D8C38256936CD009AB86E /* UIEditingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C37256936CD009AB86E /* UIEditingExtensions.swift */; };
 		226D8C3C25693711009AB86E /* PaintingE.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C3A25693700009AB86E /* PaintingE.rcproject */; };
 		226D8C4125693998009AB86E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 226D8C4025693998009AB86E /* art.scnassets */; };
+		226D8C4625693DA2009AB86E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D8C4525693DA2009AB86E /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +32,14 @@
 		226D8C1B2569350E009AB86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		226D8C1E2569350E009AB86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		226D8C202569350E009AB86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		226D8C272569360F009AB86E /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		226D8C272569360F009AB86E /* PaintingJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingJSON.swift; sourceTree = "<group>"; };
 		226D8C2A2569362F009AB86E /* PaitingBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaitingBank.swift; sourceTree = "<group>"; };
 		226D8C2D2569364D009AB86E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		226D8C3025693684009AB86E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		226D8C37256936CD009AB86E /* UIEditingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEditingExtensions.swift; sourceTree = "<group>"; };
 		226D8C3A25693700009AB86E /* PaintingE.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PaintingE.rcproject; sourceTree = "<group>"; };
 		226D8C4025693998009AB86E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		226D8C4525693DA2009AB86E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,10 @@
 				226D8C122569350E009AB86E /* AppDelegate.swift */,
 				226D8C142569350E009AB86E /* SceneDelegate.swift */,
 				226D8C162569350E009AB86E /* ViewController.swift */,
-				226D8C272569360F009AB86E /* Painting.swift */,
+				226D8C272569360F009AB86E /* PaintingJSON.swift */,
 				226D8C2A2569362F009AB86E /* PaitingBank.swift */,
 				226D8C2D2569364D009AB86E /* SearchBarView.swift */,
+				226D8C4525693DA2009AB86E /* CardView.swift */,
 				226D8C3025693684009AB86E /* SwiftUIView.swift */,
 				226D8C37256936CD009AB86E /* UIEditingExtensions.swift */,
 				226D8C3A25693700009AB86E /* PaintingE.rcproject */,
@@ -163,8 +166,9 @@
 				226D8C172569350E009AB86E /* ViewController.swift in Sources */,
 				226D8C3125693684009AB86E /* SwiftUIView.swift in Sources */,
 				226D8C132569350E009AB86E /* AppDelegate.swift in Sources */,
+				226D8C4625693DA2009AB86E /* CardView.swift in Sources */,
 				226D8C152569350E009AB86E /* SceneDelegate.swift in Sources */,
-				226D8C282569360F009AB86E /* Painting.swift in Sources */,
+				226D8C282569360F009AB86E /* PaintingJSON.swift in Sources */,
 				226D8C2E2569364D009AB86E /* SearchBarView.swift in Sources */,
 				226D8C38256936CD009AB86E /* UIEditingExtensions.swift in Sources */,
 				226D8C2B2569362F009AB86E /* PaitingBank.swift in Sources */,

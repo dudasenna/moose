@@ -52,7 +52,21 @@ class PaintingsBank: ObservableObject, Identifiable{
     @Published var searchText: String = ""
     @Published var isSearching: Bool = false
     
+    var selectedPaintings: [UIImage] = []
+    
     init(){
+        clear()
+        addItems()
+        
+    }
+    func clear(){
+        paintings = []
+    }
+    func addSelectedPainting(image: UIImage){
+        selectedPaintings.append(image)
+    }
+    
+    func addItems(){
         PaintingsList.fetch{ result in
             if case .success(let list) = result{
                 for record in list.records!{
@@ -64,7 +78,13 @@ class PaintingsBank: ObservableObject, Identifiable{
                 
             }
         }
-        
     }
     
+    func getSelectedItems() -> [Int]{
+        return (0..<paintings.count)
+            .filter{
+                self.paintings[$0].name.hasPrefix(self.searchText)
+                    || self.paintings[$0].artist!.hasPrefix(self.searchText)
+                    || self.searchText == ""}
+    }
 }

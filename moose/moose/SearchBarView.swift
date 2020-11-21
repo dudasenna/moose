@@ -41,6 +41,15 @@ struct SearchBarView: View{
                     self.bank.isSearching = false
                 }
                 .foregroundColor(Color(.systemBlue))
+                
+            }
+            else{
+                Button(action:{
+                    bank.clear()
+                    bank.addItems()
+                }){
+                    Image(systemName: "repeat")
+                }
             }
         }
         .padding(.horizontal)
